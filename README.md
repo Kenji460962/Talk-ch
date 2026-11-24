@@ -1,4 +1,4 @@
-# talkーch-mirror
+#talk-ch-mirror
 https://talk-ch.com
 https://www.talk-ch.com
 
