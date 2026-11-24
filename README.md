@@ -1,4 +1,6 @@
 # talkch-mirror
+https://talk-ch.com
+https://www.talk-ch.com
 
 Talk-ch.com を別URLから開けるようにするリバースプロキシ。
 コアは `src/core.js` の1ファイルで、各プラットフォーム用の入口 (`entries/`) が呼び出すだけ。
