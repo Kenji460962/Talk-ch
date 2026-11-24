@@ -1,9 +1,9 @@
-# talkch-mirror
+# talkーch-mirror
 https://talk-ch.com
 https://www.talk-ch.com
 
 Talk-ch.com を別URLから開けるようにするリバースプロキシ。
-コアは `src/core.js` の1ファイルで、各プラットフォーム用の入口 (`entries/`) が呼び出すだけ。
+コアは `src/core.js` の1ファイルで、各プラットフォーム用の入口 (`entries/`) が呼び出すだけ。ベリーシンプル　シンプルイズベスト
 
 | 場所 | 方法 | 備考 |
 |---|---|---|
@@ -26,6 +26,7 @@ Talk-ch.com を別URLから開けるようにするリバースプロキシ。
 ## 制限
 - WebSocket は Cloudflare Workers のみ対応
 - 本家のIP判定は `X-Forwarded-For` + `X-Proxy-Secret` の一致時のみ信頼してください
+- 基本的にペンギンが信頼した人にしか渡さないため、勝手に第三者への譲渡はやめてください
 
 - made by penguin1024
 
