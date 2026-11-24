@@ -26,3 +26,7 @@ Talk-ch.com を別URLから開けるようにするリバースプロキシ。
 ## 制限
 - WebSocket は Cloudflare Workers のみ対応
 - 本家のIP判定は `X-Forwarded-For` + `X-Proxy-Secret` の一致時のみ信頼してください
+
+- made by penguin1024
+
+- みんな頑張ってデプロイしてね
