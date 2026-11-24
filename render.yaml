@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: talkch-mirror
+    runtime: node
+    plan: free
+    buildCommand: echo ok
+    startCommand: node entries/node.js
+    envVars:
+      - key: UPSTREAM
+        value: https://talk-ch.com
+      - key: PROXY_SECRET
+        generateValue: true
