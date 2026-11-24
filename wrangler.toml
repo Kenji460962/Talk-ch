@@ -1,7 +1,0 @@
-name = "talkch-mirror"
-main = "entries/cloudflare.js"
-compatibility_date = "2025-01-01"
-
-[vars]
-UPSTREAM = "https://talk-ch.com"
-# PROXY_SECRET は `wrangler secret put PROXY_SECRET` で設定
