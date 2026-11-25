@@ -1,6 +1,6 @@
 name = "talk-ch"
 main = "entries/cloudflare.js"
-compatibility_date = "2026-6-15"
+compatibility_date = "2026-06-15"
 
 [vars]
 UPSTREAM = "https://talk-ch.com"
